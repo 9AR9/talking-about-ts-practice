@@ -12,4 +12,10 @@ describe("add", () => {
 
     expect(actual).toBe(5);
   });
+
+  it("should return 100 when adding 1 and 99", () => {
+    const actual = add(1, 99);
+
+    expect(actual).toBe(100);
+  });
 });
